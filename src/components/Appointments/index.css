@@ -1,0 +1,109 @@
+.bg-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 90%;
+  background-color: #ffffff;
+  border: 0px;
+  border-radius: 6px;
+  padding: 32px;
+}
+
+.add-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading {
+  font-family: 'Roboto';
+  color: #171f46;
+  margin-top: 0px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-card {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 22px;
+}
+
+.label {
+  font-family: 'Roboto';
+  color: #b5b7c4;
+  font-size: 10px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.input {
+  font-family: 'Roboto';
+  width: 100%;
+  border: 1px solid #b5b7c4;
+  border-radius: 3px;
+  padding: 6px;
+  padding-left: 12px;
+  outline: none;
+}
+
+.add-button {
+  font-family: 'Roboto';
+  font-size: 12px;
+  background-color: #8b5cf6;
+  color: #ffffff;
+  border: 0px;
+  border-radius: 4px;
+  padding: 8px;
+  cursor: pointer;
+  outline: none;
+}
+
+.appointment-img {
+  height: 232px;
+  padding-left: 22px;
+}
+
+.line {
+  border: 1px solid #b5b7c4;
+  margin-top: 22px;
+}
+
+.bottom-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name {
+  font-family: 'Roboto';
+  font-size: 22px;
+  color: #171f46;
+}
+
+.stared-button {
+  height: 22px;
+  width: 82px;
+  background-color: #ffffff;
+  color: #8b5cf6;
+  border: 1px solid #9796f0;
+  border-radius: 16px;
+  cursor: pointer;
+  outline: none;
+}
+
+.list-container {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
